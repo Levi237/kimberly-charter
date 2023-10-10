@@ -15,7 +15,7 @@ const HomePage = () => {
             <section>
                 <div className="txt-foreground">
                     <div className="page-width">
-                        <h3><center>Let’s get to know each other and heal & grow together.</center></h3>   
+                        <h3><center>Let's get to know each other and heal & grow together.</center></h3>   
                         <br/>                     
                         <p><center>This is a guided conversation, where you will have an opportunity to discuss with the group as Kimberly moderates the conversation</center></p>
                        <br/>
