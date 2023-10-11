@@ -1,17 +1,21 @@
-import React from 'react';
+import React, { Component }           from 'react';
 import '../pages.css';
-import FirstHomeSection from './FirstSection';
+import HomeSectionA     from './SectionA';
+import TextiOSnippet    from './TextiOSnippet';
 
-const HomePage = () => {
+export default class HomePageextends extends Component {
+    render(){
     return (
         <div className="home">
 
-            <FirstHomeSection />
+            <HomeSectionA />
             
-            <section>
+            <section className="home-section-b">
                 <div className="txt-foreground">
                     <div className="page-width">
-                        <h3><center>Let's get to know each other and heal & grow together.</center></h3>   
+                        <TextiOSnippet>
+                            <h3><center>Let's get to know each other and heal & grow together.</center></h3>   
+                        </TextiOSnippet>
                         <br/>                     
                         <p><center>This is a guided conversation, where you will have an opportunity to discuss with the group as Kimberly moderates the conversation</center></p>
                        <br/>
@@ -41,5 +45,5 @@ const HomePage = () => {
         </div>
     );
 };
-
-export default HomePage;
+}
+// export default HomePage;
