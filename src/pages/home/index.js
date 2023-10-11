@@ -1,29 +1,29 @@
-import React, { Component }           from 'react';
+import React, { Component }     from 'react';
 import '../pages.css';
-import HomeSectionA     from './SectionA';
-import TextiOSnippet    from './TextiOSnippet';
+import About                    from './About';
+import TextiO            from '../../snippets/TextiO';
 
 export default class HomePageextends extends Component {
     render(){
     return (
         <div className="home">
 
-            <HomeSectionA />
+            <About />
             
             <section className="home-section-b">
                 <div className="txt-foreground">
                     <div className="page-width">
-                        <TextiOSnippet>
+                        <TextiO>
                             <h3><center>Let's get to know each other and heal & grow together.</center></h3>   
-                        </TextiOSnippet>
+                        </TextiO>
                         <br/>    
-                        <TextiOSnippet>             
+                        <TextiO>             
                             <p><center>This is a guided conversation, where you will have an opportunity to discuss with the group as Kimberly moderates the conversation</center></p>
-                        </TextiOSnippet>    
+                        </TextiO>    
                        <br/>
-                       <TextiOSnippet>    
+                       <TextiO>    
                         <p>Our circle of friends time will be an online zoom meeting with no more than 10, so that everyone can have an opportunity to participate.  The class will be a 6 week session.  Once you register you will receive a Zoom link and can participate from the comfort of wherever you are most comfortable.</p>
-                       </TextiOSnippet>    
+                       </TextiO>    
                     <br/>
                         <h4>Example topics</h4>
                     <ul>
@@ -31,9 +31,9 @@ export default class HomePageextends extends Component {
                         <li>Good Grief…How did I get here?</li>
                         <li>Why am I having to recreate myself?</li>
                     </ul>
-                    <TextiOSnippet>  
+                    <TextiO>  
                         <p>These are just a sample of the topics we will discuss in a session.</p>
-                    </TextiOSnippet>
+                    </TextiO>
                     </div>
                 </div>
 
