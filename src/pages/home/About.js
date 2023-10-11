@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 
-const HomeSectionA = () => {
+const About = () => {
 
     const ref = useRef();
     useEffect(() => {
@@ -17,7 +17,7 @@ const HomeSectionA = () => {
     }, []);
 
     return(
-        <section ref={ref} className="home-section-a hide-item item page-width">
+        <section ref={ref} className=" hide-item item page-width">
             <img className="headshot desktop-only" width="50%" src="Pastor_Kim_Portrait_tall.jpg" alt="Kim Headshot"/>
             <p>In a world where we feel disconnected and time is so valuable, how do we find the path for healing and wholeness?</p>
             <img className="headshot mobile-only" width="50%" src="Pastor_Kim_Portrait_tall.jpg" alt="Kim Headshot"/>
@@ -27,4 +27,4 @@ const HomeSectionA = () => {
     );
 };
 
-export default HomeSectionA;
+export default About;
