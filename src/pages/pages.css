@@ -21,7 +21,7 @@
 @media (max-width: 639px ){
     .home .headshot {
         font-size: 16px;
-        width: calc(50% - .5em);
+        width: 50%;
         float: left;
         padding: 0 1em 0 0;
     }
