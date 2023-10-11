@@ -43,10 +43,7 @@ export default class HomePageextends extends Component {
                 </div>
             </section>
 
-            <section className="page-width section-info">
-                <div>
-                </div>
-            </section>
+            {/* <section className="page-width section-info"><div></div></section> */}
 
         </div>
     );
