@@ -82,7 +82,6 @@ img {
   color: white;
   position: relative;
   z-index: 2;
-  /* padding: 4rem 0; */
 }
 .txt-foreground>div {
   position: relative;
@@ -104,6 +103,7 @@ img {
   margin: 0 auto;
 }
 
+/* 
 .container > section {
   position: relative;
 }
@@ -155,3 +155,4 @@ img {
     grid-area: bottom;
   }
 }
+*/
