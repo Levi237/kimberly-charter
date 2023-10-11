@@ -10,12 +10,12 @@
 }
 
 
-.home-section-a .headshot {
+.home-about .headshot {
     opacity: 1;
     margin-top: 0;
     transition: 1s ease;
 }
-.home-section-a.hide-item .headshot {
+.home-about.hide-item .headshot {
     opacity: 0;
     margin-top: 6px;
 }
