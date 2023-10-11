@@ -31,9 +31,16 @@ header>.name-logo {
   width: 100%;
   object-fit: contain;
   object-position: left;
-  filter: hue-rotate(45deg) saturate(3);
+  filter: hue-rotate(50deg) saturate(11);
 }
 
+footer {
+  height: 240px;
+  width: 100%;
+  /* background: linear-gradient(180deg, #DAC600 0%, #DAC600 38.54%, #A57A00 78.12%, #3B2100 100%); */
+  background: linear-gradient(180deg, #DAC600 0%, #DAC600 43.75%, #BFA000 69.79%, #A57A00 81.77%, #3B2100 100%);
+  
+}
 
 h1 {
   font-size: 2.5rem;
