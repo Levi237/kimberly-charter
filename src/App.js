@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
 
-import HomePage from './pages/home';
+import Header               from './Header';
+import HomePage             from './pages/home';
 
 export default class App extends Component {
   render (){
     return (
       <div className="body">
-        <header><img className="name-logo" width="50%" height="auto" src="name_logo.png" alt="Kimberly Charter - name logo"/></header>
+        <Header />
         <HomePage />
         <footer></footer>
       </div>

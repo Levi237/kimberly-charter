@@ -25,8 +25,8 @@ code {
 }
 
 header {
-  height: 20px;
-  padding: 16px;
+  height: 60px;
+  padding: 24px 40px;
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -37,7 +37,7 @@ header>.name-logo {
   width: 100%;
   object-fit: contain;
   object-position: left;
-  filter: hue-rotate(50deg) saturate(11);
+  /* filter: hue-rotate(50deg) saturate(11); */
 }
 
 footer {
