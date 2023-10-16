@@ -38,3 +38,36 @@
         padding: 0 1em 0 0;
     }
 }
+
+@media (max-width: 639px ){
+    .home-subscribe  h2 {
+        font-size: max(32px, 8vw);
+    }
+}
+.home-subscribe .txt-over-img-box {
+    position: relative;
+}
+.home-subscribe .txt-foreground {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.home-subscribe .txt-foreground>div {
+    width: 100%;
+    text-align: center;
+}
+.home-subscribe .img-background>img {
+    object-position: left;
+}
+.home-subscribe .right.bottom {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.home-subscribe .right.bottom p {
+    padding-bottom: 0;
+}
