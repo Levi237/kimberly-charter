@@ -1,16 +1,17 @@
 import React, { Component } from 'react';
 
-import Header               from './Header';
+import Header               from './pages/Header';
+import Footer               from './pages/Footer';
 import HomePage             from './pages/home';
 
 export default class App extends Component {
   render (){
     return (
-      <div className="body">
+      <>
         <Header />
         <HomePage />
-        <footer></footer>
-      </div>
+        <Footer />
+      </>
     );
   };
 };
