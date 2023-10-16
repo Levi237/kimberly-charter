@@ -1,7 +1,7 @@
 import React, { Component }     from 'react';
 import '../pages.css';
 import About                    from './About';
-import Contact                    from './Contact';
+import Contact                    from './Subscribe';
 import TextiO            from '../../snippets/TextiO';
 
 export default class HomePageextends extends Component {
@@ -39,11 +39,11 @@ export default class HomePageextends extends Component {
                 </div>
 
                 <div className="img-background">
-                    <img src="kim_website_background.jpg" alt="Wallpaper with bible and laptop" />
+                    <img className="darken" src="kim_website_background.jpg" alt="Wallpaper with bible and laptop" />
                     <div className="gradient-overlay"></div>
                 </div>
             </section>
-            {/* <Contact /> */}
+            <Contact />
             {/* <section className="page-width section-info"><div></div></section> */}
 
         </div>
